@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 export default function Home() {
     return (
         <div className="homeContainer">
@@ -30,24 +31,26 @@ export default function Home() {
                 </div>
             </div>
 
-            {/* Testimonials Section */}
+            {/* About Us Section */}
             <div className="testimonialsSection">
-                <h2>What Our Users Say</h2>
+                <h2>About us</h2>
                 <div className="testimonialsList">
                     <div className="testimonial">
-                        <p>"CareerKey helped me land my dream job in just a week!"</p>
-                        <span>- A Happy Job Seeker</span>
+                        <p><strong>Devansh Yadav</strong></p>
+                        <p>devanshyadav6113@gmail.com</p>
+                        <p>Btech Final Year Computer Engineering</p>
                     </div>
                     <div className="testimonial">
-                        <p>"The platform is user-friendly and efficient."</p>
-                        <span>- An Employer</span>
+                        <p><strong>Mrunal Bhamare</strong></p>
+                        <p>mrunalbhamare1524@gmail.com</p>
+                        <p>Btech Final Year Computer Engineering</p>
                     </div>
                 </div>
             </div>
 
             {/* Footer Section */}
             <div className="footerSection">
-                <p>&copy; 2024 CareerKey. All rights reserved.</p>
+                <p>&copy; 2025 CareerKey. All rights reserved.</p>
             </div>
         </div>
     );
